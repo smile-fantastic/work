@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>xuanxiangka</title>
+	<style>
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		#tabs {
+			display: flex;
+			width: 1200px;
+			border:2px solid;
+			justify-content: space-between;
+
+		}
+		.tabs_box {
+			width: 500px;
+		}
+		.tabs {
+			display: flex;
+		}
+		.tabs li {
+			padding: 10px;
+			padding-left: 28px;
+	    font-size: 18px;
+		}
+		.tabs .cur {
+			color: #046fbb;
+		}
+		.contents div {
+			font-size: 14px;
+			line-height: 1.5;
+			display: none;
+		}
+		.contents .show {
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<div class="tabs">
+	 <div id="tabs1" class="tabs_box">
+	 	<ul class="tabs">
+	 		<li class="cur">学院新闻</li>
+	 		<li>通知公告</li>
+	 		<li>学术动态</li>
+	 	</ul>
+		 	<div class="contents">
+	 		<div class="show">学院新闻的内容：Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, neque. Non fugit accusantium molestias veritatis excepturi corporis obcaecati, illum unde maxime laudantium illo, ex necessitatibus eos voluptas reprehenderit, repellendus nam.</div>
+	 		<div>通知公告内容:Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+	 		<div>学术动态内容:Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+	 	</div>
+	 </div>
+	 <div id="tabs2" class="tabs_box">
+	 	<ul class="tabs">
+	 		<li class="cur">学院新闻</li>
+	 		<li>通知公告</li>
+	 		<li>学术动态</li>
+	 	</ul>
+		 	<div class="contents">
+	 		<div class="show">学院新闻的内容：Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, neque. Non fugit accusantium molestias veritatis excepturi corporis obcaecati, illum unde maxime laudantium illo, ex necessitatibus eos voluptas reprehenderit, repellendus nam.</div>
+	 		<div>通知公告内容:Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+	 		<div>学术动态内容:Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+	 	</div>
+	 </div>
+	 <div id="tabs3" class="tabs_box">
+	 	<ul class="tabs">
+	 		<li class="cur">学院新闻</li>
+	 		<li>通知公告</li>
+	 		<li>学术动态</li>
+	 	</ul>
+		 	<div class="contents">
+	 		<div class="show">学院新闻的内容：Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, neque. Non fugit accusantium molestias veritatis excepturi corporis obcaecati, illum unde maxime laudantium illo, ex necessitatibus eos voluptas reprehenderit, repellendus nam.</div>
+	 		<div>通知公告内容:Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+	 		<div>学术动态内容:Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+	 	</div>
+	 </div>
+	</div>
+	 <script>
+	 	// 选项卡：点击每个选项，被点击的选项具有特殊样式，其它选项样式正常，其它选项对应的选项内容显示，其它选项内容不显示
+	 	function tab(id){
+	 			// 获取选项卡容器
+	 	var box=document.getElementById(id);
+	 	// 获取所有选项
+	 	var ul=box.getElementsByClassName('tabs')[0];
+	 	var lis=ul.getElementsByTagName('li');
+	 	// 获取选项内容
+	 	var div=box.getElementsByClassName('contents')[0];
+	 	var divs=div.getElementsByTagName('div');
+	 	for(var i=0;i<lis.length;i++){
+	 		lis[i].index=i;//设置所有选项index属性，保存选项的索引序号
+	 		// 给所有选项绑定点击事件
+	 		lis[i].onclick=function(){
+	 			// 所有选项样式恢复正常
+	 			for(var i=0;i<lis.length;i++){
+	 				// lis[i].classname='';  //class设置值为空，没有去掉class属性值
+	 				lis[i].removeAttribute('class');//去掉class属性
+	 			}
+	 			// 所有选项内容不显示
+	 			for(var i=0;i<divs.length;i++){
+	 				// lis[i].classname='';  //class设置值为空，没有去掉class属性值
+	 				divs[i].removeAttribute('class');//去掉class属性
+	 			}
+	 			this.className='cur';//被点击的选项具有特殊样式
+	 			divs[this.index].className='show';//被点击的选项对应的选项内容显示
+	 		}
+	 		//全清单设  思路、
+	 	 }
+	 	}
+	 	tab('tabs1');
+	 	tab('tabs2');
+	 	tab('tabs3');
+	 </script>
+</body>
+</html>
